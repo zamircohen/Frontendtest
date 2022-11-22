@@ -6,5 +6,5 @@ Frontendtest for an internship application with the following tasks:
 - Landing page must be responsive
 
 ## Getting started
-- Open index.html in a browser
+- Open index.html with live server 
 - Use following command to start SASS watch `sass --watch styles.scss styles.css`
