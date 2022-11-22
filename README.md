@@ -8,3 +8,4 @@ Frontendtest for an internship application with the following tasks:
 ## Getting started
 - Open index.html with live server 
 - Use following command to start SASS watch `sass --watch styles.scss styles.css`
+- Open website with Inspect to access the Developer tools panel and change dimensions to control responsivity
