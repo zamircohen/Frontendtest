@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -53,6 +57,14 @@ body {
   border-radius: 10px;
   margin: auto;
   overflow: auto;
+  padding: 5px 10px 5px 10px;
+}
+.info--box .info--text--box {
+  width: 70%;
+  height: 70%;
+  top: 10% 0 0 10%;
+  margin: 0 auto;
+  position: relative;
 }
 .info--box h3,
 .info--box p {
@@ -69,7 +81,7 @@ body {
 .info--box p {
   font-size: 14px;
   color: #a39393;
-  padding: 0 75px 0 75px;
+  padding: 0 10% 0 10%;
 }
 
 .container {
@@ -119,7 +131,7 @@ body {
   background-color: #64baa4;
   color: #ffffff;
   border: none;
-  width: 30%;
+  max-width: 30%;
   margin: 5px auto;
   display: block;
   padding: 5px;
@@ -183,7 +195,7 @@ body {
 .dropdown--content {
   display: none;
   position: absolute;
-  max-width: 200px;
+  max-width: 250px;
   right: 0;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   top: 80px;
@@ -239,7 +251,7 @@ body {
   .button--read-more {
     padding: 5px 10px;
     font-size: 0.7rem;
-    width: 25%;
+    width: 400px;
   }
   .button--arrow {
     display: none;
@@ -264,6 +276,74 @@ body {
   }
   .dropdown--content {
     top: 60px;
+    max-width: 150px;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .logo {
+    margin-left: 40px;
+    height: 100px;
+  }
+  .nav--wrapper ul {
+    height: 140px;
+  }
+  .background-img {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./images/workplace2.jpg");
+  }
+  .button--arrow {
+    top: 80%;
+  }
+  .button--arrow img {
+    height: 100px;
+    width: 100px;
+  }
+  .container--bottom {
+    height: 100vh;
+  }
+  .container--bottom h3 {
+    font-size: 5rem;
+  }
+  .container--tech .container--image {
+    height: auto;
+    max-width: 30%;
+    padding-bottom: 5%;
+  }
+  .container--tech .container--text {
+    font-size: 3rem;
+    padding: 0px 60px 0px 60px;
+  }
+  .button--read-more {
+    padding: 10px 15px;
+    font-size: 2rem;
+    width: 25%;
+  }
+  .menu--wrapper {
+    width: 100px;
+    margin: 40px;
+  }
+  .info--box {
+    height: 40%;
+    width: 45%;
+  }
+  .info--box .info--text--box {
+    width: 80%;
+  }
+  .info--box h3,
+  .info--box p {
+    padding-top: 10px;
+  }
+  .info--box h3 {
+    font-size: 48px;
+    color: #eee8e8;
+  }
+  .info--box p {
+    font-size: 32px;
+  }
+  .dropdown--content {
+    max-width: 600px;
+    font-size: 3rem;
   }
 }
 
